@@ -1,11 +1,6 @@
-h2{
-  color: white;
-}
-h1{
-  color: white;
-}
-br{
-  color: black;
+
+hr{
+  color:black;
 }
 .head{
   display: flex;
@@ -20,6 +15,7 @@ br{
   grid-row: 1;
   border-style: solid;
   border-color:white;
+  text-align: center;
 }
 
 .grid {
@@ -49,6 +45,21 @@ br{
   background-color:#E0E0E0;
 }
 
+.sidebar-content >img {
+  border-radius: 50%;
+  width: 10%;
+  overflow: hidden;
+  margin-left: 25%;
+  height: auto;
+}
+
+.head-box >h2 {
+
+color: white;
+}
+.head-box >h1 {
+  color: white;
+  }
 
 .maingrid{
   display: grid;
